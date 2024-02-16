@@ -163,5 +163,5 @@ def upload_files():
     return send_file(updated_excel_path, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
 
